@@ -29,6 +29,9 @@ function App() {
               <Route exact path="/">
                 <Redirect to={defaultPage.Path} />
               </Route>
+              <Route exact path={process.env.PUBLIC_URL}>
+                <Redirect to={defaultPage.Path} />
+              </Route>
             </Switch>
           </div>
         </div>
