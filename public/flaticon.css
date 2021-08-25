@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?fc17cbb78d283709574939f529074de1") format("truetype"),
+url("./flaticon.woff?fc17cbb78d283709574939f529074de1") format("woff"),
+url("./flaticon.woff2?fc17cbb78d283709574939f529074de1") format("woff2"),
+url("./flaticon.eot?fc17cbb78d283709574939f529074de1#iefix") format("embedded-opentype"),
+url("./flaticon.svg?fc17cbb78d283709574939f529074de1#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-door-key:before {
+    content: "\f101";
+}
+.flaticon-phone-keyboard-buttons:before {
+    content: "\f102";
+}
+.flaticon-check-list:before {
+    content: "\f103";
+}
+.flaticon-message:before {
+    content: "\f104";
+}
