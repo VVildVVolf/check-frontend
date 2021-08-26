@@ -1,1 +1,17 @@
 .numbers-page .top-buffer { margin-top:20px; }
+
+.numbers-page .toll .btn:hover, 
+.numbers-page .toll .btn-check:active+.btn-outline-primary, 
+.numbers-page .toll .btn-check:checked+.btn-outline-primary, 
+.numbers-page .toll .btn-outline-primary.active, 
+.numbers-page .toll .btn-outline-primary.dropdown-toggle.show, 
+.numbers-page .toll .btn-outline-primary:active {
+    background-color: #198754;
+    border-color: #198754;
+    color: white;
+}
+
+.numbers-page .toll .btn {
+    border-color: #198754;
+    color: #198754;;
+}

@@ -30,8 +30,8 @@ export class TabComponent extends React.Component<ITabComponentProps, ITabCompon
     }
 
     private handleClick(selected: number): void{
+        this.setState({selected: selected});
         if (this.props.onChange) {
-            this.setState({selected: selected});
             this.props.onChange(selected);
         }
     }
